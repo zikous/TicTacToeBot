@@ -1,0 +1,2 @@
+# Core dependencies
+tkinter==0.1.0  # Tkinter is included with Python, but this ensures compatibility

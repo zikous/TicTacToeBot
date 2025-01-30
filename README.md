@@ -20,13 +20,21 @@ This project implements a Tic Tac Toe game where a human player (X) plays agains
 ```
 TicTacToeBot/
 │
-├── model.py         # Game logic and state management
-├── view.py         # GUI implementation
-├── controller.py   # Game control and coordination
-├── agent.py       # AI opponent implementation
-├── main.py        # Entry point
+├── model/ # Folder for game logic and state management
+│ └── model.py # Game logic and state management
+│
+├── view/ # Folder for GUI implementation
+│ └── view.py # GUI implementation
+│
+├── controller/ # Folder for game control and coordination
+│ └── controller.py # Game control and coordination
+│
+├── agent/ # Folder for AI opponent implementation
+│ └── agent.py # AI opponent implementation
+│
+├── main.py # Entry point
 ├── requirements.txt # Project dependencies
-└── .gitignore     # Git ignore rules
+└── .gitignore # Git ignore rules
 ```
 
 ## Installation
