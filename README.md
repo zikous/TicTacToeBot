@@ -64,12 +64,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Requirements
-
-- Python 3.x
-- Tkinter >=8.6 (usually comes with Python installation)
-- python-dateutil >=2.8.2
-
 ## How to Play
 
 1. Run the game:
