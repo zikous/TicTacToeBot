@@ -110,10 +110,11 @@ python main.py
 
 ### Agent (agent.py)
 
-- Implements the AI opponent using Minimax algorithm
-- Includes alpha-beta pruning for better performance
-- Evaluates board positions
-- Makes strategic decisions for optimal play
+- Implements an unbeatable AI using the Minimax algorithm
+- Uses alpha-beta pruning for faster decision-making
+- Evaluates board positions with heuristics for optimal play
+- Prioritizes strategic moves (center control, corners, blocking threats)
+- Uses a transposition table to optimize repeated board evaluations
 
 ## Development Setup
 
